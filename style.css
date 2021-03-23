@@ -1,0 +1,969 @@
+/*
+YUI 3.18.1 (build f7e7bcb)
+Copyright 2014 Yahoo! Inc. All rights reserved.
+Licensed under the BSD License.
+http://yuilibrary.com/license/
+*/
+
+html {
+    color: #fef5e9;
+    background: #292626;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset,
+img {
+    border: 0;
+}
+
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+em,
+var {
+    font-style: normal;
+    font-weight: normal;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+caption,
+th {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+q:before,
+q:after {
+    content: '';
+}
+
+abbr,
+acronym {
+    border: 0;
+    font-variant: normal;
+}
+
+sup {
+    vertical-align: text-top;
+}
+
+sub {
+    vertical-align: text-bottom;
+}
+
+input,
+textarea,
+select,
+a {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%;
+}
+
+a {
+    color: inherit;
+}
+
+legend {
+    color: #000;
+}
+
+#yui3-css-stamp.cssreset {
+    display: none;
+}
+
+body,
+#ecran {
+    background-color: #292626;
+}
+
+#ecran {
+    min-width: 320px;
+    width: 100%;
+    /*max-width: 1024px;*/
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 100%;
+    font-family: Georgia, serif;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-family: Georgia, serif;
+    max-width: 100%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-family: Georgia, serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /*    max-width: 100%;
+    height: auto;*/
+}
+
+p,
+li {
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Verdana, sans-serif;
+}
+
+a {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+
+/*[lang="fr"] h1 {}*/
+
+
+/*MENU*/
+
+
+/*ul {
+    display: flex;
+    align-content: space-between;
+}*/
+
+li {
+    display: inline;
+    /* min-width: 200px;*/
+    font-size: 0.5em;
+    padding: 10%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    background-color: #237d81;
+    /*width: auto;*/
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    /* max-height: 100px;*/
+    left: 0;
+    /*    top: 100px;*/
+    z-index: 30;
+    margin: auto;
+}
+
+.menu ul {
+    margin: auto;
+}
+
+.element {
+    display: inline-block;
+    width: 40%;
+    padding: 5px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 1em;
+    color: #fef5e9;
+}
+
+.element a {
+    font-weight: inherit;
+    text-decoration: inherit;
+}
+
+.element:hover {
+    text-decoration: overline underline;
+    text-decoration-color: #292626;
+    text-decoration-style: double;
+}
+
+li:not(.element) {
+    font-size: inherit;
+    padding: inherit;
+    margin: inherit;
+    color: inherit;
+}
+
+.bouton {
+    display: none;
+}
+
+.active a {
+    color: #292626;
+    font-style: italic;
+    text-decoration: overline underline;
+    text-decoration-color: #292626;
+    text-decoration-style: double;
+}
+
+.icone {
+    width: 25%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lienaccueil {
+    display: none;
+}
+
+.menulang {
+    z-index: 29;
+    /*width: 100%;*/
+    /*    background-color: #237d81;*/
+}
+
+.menulang ul {
+    /*z-index: 29;*/
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-around;*/
+    background-color: inherit;
+}
+
+.menulang li {
+    display: block;
+    background-color: inherit;
+    padding-right: 20px;
+    margin-top: 20px;
+    /*margin-bottom: 40px;*/
+}
+
+.menulang li:nth-child(2) {
+    display: none;
+}
+
+.reseauxpro {
+    margin: 0;
+}
+
+.reseaux {
+    width: 35px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    /*padding: 5px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 1em;
+    color: #fef5e9;*/
+}
+
+.retourhaut {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fef5e9;
+    width: 50px;
+    height: 50px;
+    z-index: 30;
+    border-radius: 30px;
+    border: 1px #fef5e9 solid;
+    box-shadow: 4px 4px 4px #292626;
+}
+
+.retourhaut::before {
+    content: url("img/retourhaut.png");
+}
+
+.retourhaut:hover {
+    background-color: #237d81;
+    border: 1px #237d81 solid;
+}
+
+
+/*ACCUEIL*/
+
+.imgbande {
+    max-height: 100px;
+    width: auto;
+}
+
+.accueil,
+.competences,
+.parcours,
+.realisations {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.accueil,
+.parcours {
+    background-color: #fef5e9;
+    color: #292626;
+}
+
+.competences,
+.realisations {
+    background-color: #237d81;
+    color: #fef5e9;
+}
+
+
+/*
+
+.parcours {
+    background-color: #fef5e9;
+}
+
+.realisations {
+    background-color: #237d81;
+}*/
+
+.texteaskewpos,
+.texteaskewneg {
+    padding: 20px;
+    margin: auto;
+}
+
+#competences img {
+    height: 50px;
+    /*        max-width: 50%;*/
+    width: auto;
+    padding: 10px;
+}
+
+#competences li {
+    display: block;
+    align-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.lienpage {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #292626;
+    color: #fef5e9;
+    max-width: 220px;
+    text-align: center;
+    font-size: 1em;
+    border: 2px #292626 solid;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 4px 4px 10px #292626;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+.lienpage.un:hover,
+.lienpage.trois:hover {
+    background-color: #237d81;
+    border-color: #237d81;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.lienpage.deux:hover,
+.lienpage.quatre:hover {
+    background-color: #fef5e9;
+    border-color: #fef5e9;
+    color: #292626;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+/*PARCOURS*/
+
+.date {
+    background-color: #237d81;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    min-height: 50px;
+    color: #fef5e9;
+}
+
+.toggle {
+    display: block;
+    background-color: #fef5e9;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    z-index: 30;
+    border-radius: 30px;
+    border: 1px #fef5e9 solid;
+    box-shadow: 4px 4px 4px #292626;
+}
+
+.toggle::before {
+    content: url("img/toggle.png");
+}
+
+
+.toggle1,
+.toggle2,
+.toggle3,
+.toggle4,
+.toggle5,
+.toggle6,
+.toggle7,
+.toggle8,
+.toggle9,
+.toggle10,
+.toggle11,
+.toggle12,
+.toggle13,
+.toggle14,
+.toggle15,
+.toggle16,
+.toggle17,
+.toggle18,
+.toggle19,
+.toggle20 {
+    cursor: pointer;
+}
+
+.vue1,
+.vue2,
+.vue3,
+.vue4,
+.vue5,
+.vue6,
+.vue7,
+.vue8,
+.vue9,
+.vue10,
+.vue11,
+.vue12,
+.vue13,
+.vue14,
+.vue15,
+.vue16,
+.vue17,
+.vue18,
+.vue19,
+.vue20 {
+    display: none;
+}
+
+img.lieu {
+    max-width: 100%;
+    max-height: 100px;
+    /*    padding-top: 20px;*/
+}
+
+
+/*COMPETENCES*/
+
+.logo {
+    display: inline-block;
+    max-height: 100px;
+    width: auto;
+    padding-right: 10px;
+}
+
+.rubrique {
+    max-height: 90px;
+    width: auto;
+}
+
+.h2competences {
+    background-color: #237d81;
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.sprachen {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sprachen li {
+    display: block;
+    text-align: right;
+    height: 40px;
+    margin: 20px;
+}
+
+.sprachen li:last-child {
+    margin-bottom: 0;
+}
+
+.cent {
+    width: 100%;
+    height: 30px;
+    margin-left: 0;
+}
+
+.octante {
+    width: 80%;
+    height: 30px;
+    margin-left: 0;
+}
+
+.vingt {
+    width: 20%;
+    height: 30px;
+    margin-left: 0;
+}
+
+.sdltrados {
+    text-align: center;
+}
+
+.sdltrados img {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.skillz {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.redaction {
+    margin-bottom: 20px;
+}
+
+
+/*PORTFOLIO*/
+.real {
+    position: relative;
+    top: -160px;
+    margin-bottom: -50px;
+    /*padding-bottom: -150;*/
+}
+
+/*CONTACT*/
+
+form p {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+    color: #292626;
+    padding: 10px
+}
+
+label {
+    color: #fef5e9;
+    padding-bottom: 10px;
+}
+
+#valider,
+#effacer {
+    width: 80%;
+    height: 50px;
+    cursor: pointer;
+    border: 2px #292626 solid;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 4px 4px 10px #292626;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#valider {
+    background-color: #fef5e9;
+    border-color: #fef5e9;
+    color: #292626;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#effacer {
+    background-color: #237d81;
+    border-color: #237d81;
+    color: #fef5e9;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#valider:hover,
+#effacer:hover {
+    font-weight: bold;
+    text-decoration: underline overline;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+}
+
+/*.merci {
+    position: relative;
+    top: 200px;
+}*/
+
+.main {
+        margin-top: 200px;
+    }
+
+@media (min-width:768px) {
+    /*MENU*/
+    .menu {
+        position: fixed;
+    }
+    .main {
+        margin-top: 180px;
+    }
+    .flottant {
+        /*    
+    width: 100%;
+    height: auto;
+    min-height: 50px;
+    max-height: 100px;
+    position: fixed;
+    left: 0;*/
+        background-color: #292626;
+        top: 0;
+        /*    z-index: 30;*/
+    }
+    .flottant .active a {
+        color: #237d81;
+    }
+    .flottant .element:hover {
+        text-decoration: overline underline;
+        text-decoration-color: #237d81;
+        text-decoration-style: double;
+    }
+    .skew {
+        display: block;
+        /*        background-color: #fef5e9;*/
+        width: 100%;
+        position: fixed;
+        top: -10px;
+        height: 200px;
+        max-height: 200px!important;
+        width: 200px;
+        background: linear-gradient(to bottom right, #fef5e9 0%, #fef5e9 50%, transparent 50%, transparent 100%);
+        z-index: 31;
+        cursor: pointer;
+    }
+    .skew>li,
+    .skew a {
+        display: none;
+    }
+    .skew .bouton {
+        display: inline-block!important;
+        color: #292626;
+        font-size: 1.5em;
+        transform: rotate(-45deg);
+        /*margin-left: 15%;*/
+        margin-top: 15%;
+    }
+    .element {
+        /*        display: inline-block;
+        padding: 5px;*/
+        width: auto;
+        padding-right: 40px;
+        /*text-align: center;
+        font-size: 1.5em;
+        color: #fef5e9;*/
+    }
+    .icone,
+    .reseaux {
+        width: 60px;
+        height: auto;
+    }
+    /*.item {
+        display: inherit;
+    }*/
+    .lienaccueil {
+        display: inline-block;
+    }
+    /*.menulang ul {
+        display: flex;
+        justify-content: space-around;
+    }*/
+    .menulang li {
+        display: inline;
+        padding: 20px;
+    }
+    .retourhaut {
+        bottom: 20px;
+        right: 20px;
+        width: 60px;
+        height: 60px;
+        border-radius: 40px;
+        border: 2px #fef5e9 solid;
+        box-shadow: 4px 4px 4px #292626;
+    }
+    .retourhaut::before {
+        content: url("img/retourhautdesktop.png");
+    }
+    .retourhaut:hover {
+        border: 2px #237d81 solid;
+    }
+    .reseaux {
+        width: 60px;
+        display: inline-block;
+        padding-right: 40px;
+        margin: inherit;
+        /*padding: 5px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 1em;
+    color: #fef5e9;*/
+    }
+    /*ACCUEIL*/
+    .accueil,
+    .competences,
+    .parcours,
+    .realisations {
+        width: 150%;
+        height: auto;
+        overflow: hidden;
+        position: relative;
+        left: -50px;
+    }
+    .accueil {
+        transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        height: 500px;
+        /*   width: 150%;
+    overflow: hidden;
+    position: relative;
+    left: -50px;*/
+    }
+    .competences {
+        transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        /*height: auto;*/
+        /*position: relative;
+        top: 50px;*/
+        /*width: 150%;
+    overflow: hidden;
+    left: -50px;*/
+    }
+    .parcours {
+        transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        /*height: 500px;*/
+        position: relative;
+        top: -50px;
+        /*width: 150%;
+    overflow: hidden;
+    left: -50px;*/
+    }
+    .realisations {
+        transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+        /*height: 500px;*/
+        /*width: 150%;
+    overflow: hidden;
+    position: relative;
+    left: -50px;*/
+    }
+    div.texteaskewpos,
+    div.texteaskewneg {
+        max-width: 50%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-bottom: 30px;
+    }
+    div.texteaskewpos {
+        transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+    }
+    div.texteaskewneg {
+        transform: rotate(5deg);
+        -moz-transform: rotate(5deg);
+        -o-transform: rotate(5deg);
+        -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+    }
+    .accueil>.texteaskewneg {
+        position: relative;
+        top: -100px;
+    }
+    #competences {
+        display: flex;
+        justify-content: space-between;
+    }
+    #competences article {
+        width: 30%;
+    }
+    #competences img {
+        height: 90px;
+    }
+    /*PARCOURS*/
+    /*PORTFOLIO*/
+    article {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    article.pair {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    article>p.date,
+    article>p.xp {
+        width: 50%;
+    }
+    .date {
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+    .toggle {
+        display: none;
+    }
+    .toggle1,
+    .toggle2,
+    .toggle3,
+    .toggle4,
+    .toggle5,
+    .toggle6,
+    .toggle7,
+    .toggle8,
+    .toggle9,
+    .toggle10,
+    .toggle11,
+    .toggle12,
+    .toggle13,
+    .toggle14,
+    .toggle15,
+    .toggle16,
+    .toggle17,
+    .toggle18,
+    .toggle19,
+    .toggle20 {
+        cursor: default;
+    }
+    .vue1,
+    .vue2,
+    .vue3,
+    .vue4,
+    .vue5,
+    .vue6,
+    .vue7,
+    .vue8,
+    .vue9,
+    .vue10,
+    .vue11,
+    .vue12,
+    .vue13,
+    .vue14,
+    .vue15,
+    .vue16,
+    .vue17,
+    .vue18,
+    .vue19,
+    .vue20 {
+        display: inherit;
+    }
+    /*    .screencap {
+        max-width: 100%;
+        height: auto;
+    }*/
+    /*COMPETENCES*/
+    .sprachen>ul:first-child {
+        width: 20%;
+        margin-right: 20px;
+    }
+    .sprachen>ul:last-child {
+        width: 70%;
+    }
+    /*CONTACT*/
+    
+    input {
+        width: 40%;
+        height: 40px;
+    }
+    #valider,
+    #effacer {
+        width: 30%;
+        height: 50px;
+    }
+    textarea {
+        width: 80%;
+        height: 200px;
+    }
+}
