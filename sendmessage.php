@@ -2,14 +2,14 @@
     <?php
 if(isset($_POST['valider']))
 {
-    $destinataire = 'juliette@malgouyard.com';
+    $destinataire = '';
     $nom = $_POST['nom'];
     $prenom = $_POST['prenom'];
     $expediteur = $_POST['expediteur'];
     $objet = $_POST['objet'];
     $message = "Message de $expediteur depuis le site perso :\n" .$_POST['message'];
     $entete = "Content-type: text/plain; charset=utf8\n";
-    $entete.= 'From: messageriez@hotmail.fr\n' ;
+    $entete.= 'From: tot@mailinator.com\n' ;
     if (isset($expediteur))
         {
             if (preg_match("!^[a-z0-9._-]+@[a-z0-9._-]{2,}\.[a-z]{2,6}$!", $expediteur))        
