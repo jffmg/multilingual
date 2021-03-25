@@ -20,9 +20,9 @@ Else{
     }
 // on switch sur lang pour savoir quel fichier inclure
 switch($lang){
-    /*case "de":
+    case "de":
         include "lang_de.php";
-        break;*/
+        break;
     case "en":
         include "lang_en.php";
         break;

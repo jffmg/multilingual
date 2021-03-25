@@ -16,11 +16,11 @@ define("MENTIONSMENU","Legal notice");
 define("MENTIONS","<section>
         <h1>Terms of Service and Privacy Policy</h1>
         <h2>Presentation</h2>
-        <p>By accessing the website at https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
-        <p>Site owner: Juliette Malgouyard – 1 rue de Palerme, 67000 Strasbourg
+        <p>By accessing the present website, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.</p>
+        <p>Site owner: Juliette Malgouyard – Strasbourg
             <br>Creator: Juliette Malgouyard
             <br>Webmaster: Juliette Malgouyard – <a href='?lang=en&page=contact'>Contact</a>
-            <br>Hosting: Direction informatique, Université de Strasbourg - 14 rue René Descartes, 67084 Strasbourg CEDEX</p>
+<!--            <br>Hosting: -->
         <h2>Use License</h2>
         <p>Permission is granted to temporarily download one copy of the materials (information or software) on Juliette Malgouyard’s website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:
             <br>modify or copy the materials;
@@ -44,7 +44,7 @@ define("MENTIONS","<section>
         <p>These terms and conditions are governed by and construed in accordance with the laws of France and you irrevocably submit to the exclusive jurisdiction of the courts in that State or location.</p>
     </section>
     <section>
-        <h1>Privacy Policy</h1>
+        <h2>Privacy Policy</h2>
         <p>It is Juliette Malgouyard’s policy to respect your privacy regarding any information we may collect while operating our website. Accordingly, we have developed this privacy policy in order for you to understand how we collect, use, communicate, disclose and otherwise make use of personal information. We have outlined our privacy policy below.</p>
         <p>We will collect personal information by lawful and fair means and, where appropriate, with the knowledge or consent of the individual concerned.
             <br>Before or at the time of collecting personal information, we will identify the purposes for which information is being collected.
@@ -181,7 +181,7 @@ define("BLABLAGESTION","Team management and training
 define("BLABLAPORTFOLIO","Here you can find some projects I carried out, alone or in a group, during my studies and my professional experiences.");
 define("MASTERTCLOC","<strong>Collective project of the Master CAWEB students (2016-2017) for the Strasbourg University Master TCLoc program</strong>: study and design, editing in English, integration, translation to French, proofreading, SEO.");
 define("GIG","<strong>Project for the CAWEB program with Mélanie Ribeiro (2016)</strong>: technical and graphic design, development, redaction, integration.");
-define("MIIS","<strong>Article in English</strong> written for the CAWEB on Tour website about our visit at the Middlebury Institue of Internation Studies during our study trip in San Francisco (2016)");
+define("MIIS","<strong>Article in English written for the CAWEB on Tour website about our visit at the Middlebury Institue of Internation Studies during our study trip in San Francisco (2016)</strong>");
 
 // CONTACT
 define("INVITATION","Get in touch!");
@@ -193,6 +193,7 @@ define("MESSAGE","Your message");
 define("ENVOYER","Send the message");
 define("EFFACER","Clear form");
 define("REQUIRED"," Required fields.");
+define("DESACTIVATION", "The contact form is currently unavailable.");
 
 //SENDMESSAGE
 define("MERCI","Thank you for your message, ");

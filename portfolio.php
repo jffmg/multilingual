@@ -12,13 +12,13 @@
            <img src="img/gig.jpg" alt="Guide de l'intégrateur galactique" class="screencap">
         </p>
            <span class="toggle toggle6 real"></span>
-           <p class="xp vue6"><a href="https://etudiants-caweb.u-strasbg.fr/1617/jmalg/minisite/index.php" target="_blank"><?php echo GIG; ?></a></p>
+           <p class="xp vue6"><a href="../belliet-final/index.php?page=accueil&css=css1&titre=Accueil" target="_blank"><?php echo GIG; ?></a></p>
     </article>
-    <article>
+    <article>cd C
         <p class="date toggle7">
            <img src="img/cawebontour1.jpg" alt="Caweb on Tour meets the MIIS" class="screencap">
         </p>
            <span class="toggle toggle7 real"></span>
-        <p class="xp vue7"><a href="https://etudiants-caweb.u-strasbg.fr/cawebontour/?p=868" target="_blank"><?php echo MIIS; ?></a></p>
+        <p class="xp vue7"><?php echo MIIS; ?></p>
     </article>
 </main>

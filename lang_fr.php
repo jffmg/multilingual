@@ -18,16 +18,11 @@ define("MENTIONS","<h1>Mentions légales</h1>
         <br /> Celles-ci étant éventuellement modifiables, nous vous invitons à consulter nos mentions légales régulièrement.</p>
     <h2>Propriétaire, créateur, directeur de la publication</h2>
     <p>
-        Juliette Malgouyard, domiciliée au 1 rue de Palerme - 67000 Strasbourg. <a href='?lang=fr&page=contact'>Vous pouvez nous contacter par le formulaire sur notre page Contact</a>.
+        Juliette Malgouyard, domiciliée à Strasbourg. <a href='?lang=fr&page=contact'>Vous pouvez nous contacter par le formulaire sur notre page Contact</a>.
     </p>
-    <h2>Hébergeur</h2>
-    <p>Direction informatique
-        <br>Université de Strasbourg
-        <br>14 rue René Descartes
-        <br>67084 Strasbourg CEDEX
-    </p>
-    <h2>Conditions générales d’utilisation du site et des services proposés.</h2>
-<p>En utilisant le site web <a href='https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php?lang=fr' title='Juliette Malgouyard'>https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php</a>, vous acceptez pleinement et entièrement les conditions générales d'utilisation précisées dans les présentes mentions légales.</p>
+<!--    <h2>Hébergeur</h2> -->
+    <h2>Conditions générales d’utilisation du site et des services proposés</h2>
+<p>En utilisant le présent site web, vous acceptez pleinement et entièrement les conditions générales d'utilisation précisées dans les présentes mentions légales.</p>
     <h2>Cookies</h2>
     <p>La navigation sur le présent site est susceptible de provoquer l’installation de cookie(s) sur l’ordinateur de l’utilisateur. Un cookie est un fichier de petite taille, qui ne permet pas l’identification de l’utilisateur, mais qui enregistre des informations relatives à la navigation d’un ordinateur sur un site. Les données ainsi obtenues visent à faciliter la navigation ultérieure sur le site, et ont également vocation à permettre diverses mesures de fréquentation.
         <br>Le refus d’installation d’un cookie peut entraîner l’impossibilité d’accéder à certains services. L’utilisateur peut toutefois configurer son ordinateur de la manière suivante, pour refuser l’installation des cookies&nbsp;:
@@ -38,9 +33,9 @@ define("MENTIONS","<h1>Mentions légales</h1>
     </p>
     <h2>Limitations de responsabilité</h2>
     <p>Juliette Malgouyard ne pourra être tenue responsable de dommages directs ou indirects causés lors de l’accès au présent site ou consécutifs à son utilisation.</p>
-    <p>Le présent site a pour vocation d'informer les utilisateurs sur les services proposés par Juliette Malgouyard, qui s'efforce alors de fournir des informations précises sur son activité. Cependant, des inexactitudes ou des omissions peuvent exister&nbsp;: la société ne pourra en aucun cas être tenue pour responsable pour toute erreur ou inexactitude présente sur le site <a href='https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php?lang=fr' title='Juliette Malgouyard'>https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php</a>.Si vous constatez une erreur concernant des informations que nous aurions pu omettre, n’hésitez pas à <a href='?lang=fr&page=contact'>nous contacter</a>.</p>
+    <p>Le présent site a pour vocation d'informer les utilisateurs sur les services proposés par Juliette Malgouyard, qui s'efforce alors de fournir des informations précises sur son activité. Cependant, des inexactitudes ou des omissions peuvent exister&nbsp;: la société ne pourra en aucun cas être tenue pour responsable pour toute erreur ou inexactitude présente sur le présent site.Si vous constatez une erreur concernant des informations que nous aurions pu omettre, n’hésitez pas à <a href='?lang=fr&page=contact'>nous contacter</a>.</p>
     <p>Les liens reliés directement ou indirectement au présent site web ne sont pas sous notre contrôle. Par conséquent, nous ne pouvons nous assurer de l’exactitude des informations présentes sur ces autres sites Internet.</p>
-    <p>Juliette Malgouyard <a href='https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php?lang=fr' title='Juliette Malgouyard'>https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php</a> ne pourra être mis en cause en cas de propos injurieux, à caractère raciste, diffamant ou pornographique, échangés sur les espaces interactifs. Juliette Malgouyard se réserve également le droit de supprimer tout contenu contraire à ses valeurs ou à la législation applicable en France.
+    <p>Juliette Malgouyard ne pourra être mise en cause en cas de propos injurieux, à caractère raciste, diffamant ou pornographique, échangés sur les espaces interactifs. Juliette Malgouyard se réserve également le droit de supprimer tout contenu contraire à ses valeurs ou à la législation applicable en France.
         <br>Le cas échéant, Juliette Malgouyard se réserve également la possibilité de mettre en cause la responsabilité civile ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant ou pornographique, quel que soit le support utilisé (texte, photographie…).</p>
     <h2>Propriété intellectuelle et contenu du site Internet</h2>
     <p>Juliette Malgouyard est propriétaire des droits de propriété intellectuelle ou détient les droits d’usage sur tous les éléments accessibles sur le site, notamment les textes, images, graphismes, logo, icônes, sons, logiciels.
@@ -51,7 +46,7 @@ define("MENTIONS","<h1>Mentions légales</h1>
         <br>Juliette Malgouyard ne collecte des informations personnelles relatives à l’utilisateur que pour le besoin de certains services proposés par le présent site. L’utilisateur fournit ces informations en toute connaissance de cause, notamment lorsqu’il procède par lui-même à leur saisie. Il est alors précisé à l’utilisateur du présent site l’obligation ou non de fournir ces informations.
     </p>
     <h2>Droit applicable et lois concernées</h2>
-    <p>Soumis au droit français, le site web <a href='https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php?lang=fr' title='Juliette Malgouyard'>https://etudiants-caweb.u-strasbg.fr/1617/jmalg/site-multilingue/index.php</a> est encadré par la loi n° 2004-2005 du 21 juin 2004 pour la confiance dans l'économie numérique, l’article L.335-2 du Code de la Propriété Intellectuelle et la loi « informatique et libertés » du 6 janvier 1978 modifiée en 2004.</p>");
+    <p>Soumis au droit français, le présent site web est encadré par la loi n° 2004-2005 du 21 juin 2004 pour la confiance dans l'économie numérique, l’article L.335-2 du Code de la Propriété Intellectuelle et la loi « informatique et libertés » du 6 janvier 1978 modifiée en 2004.</p>");
 //define("CREDITS","Crédits");
 define("HAUT","Haut de page");
 define("LINKEDIN","https://fr.linkedin.com/in/jmalgouyard");
@@ -170,7 +165,7 @@ define("BLABLAGESTION","Encadrement et formation d’équipes<br>Analyse des bes
 define("BLABLAPORTFOLIO","Vous pouvez trouver ici quelques-uns des travaux que j’ai réalisés seule ou à plusieurs au cours de mes études et de mes expériences professionnelles.");
 define("MASTERTCLOC","<strong>Projet collectif des étudiants du master CAWEB (2016-2017) pour le master TCLoc de l’Université de Strasbourg</strong>&nbsp;: étude et conception, rédaction en anglais, intégration, traduction vers le français, correction, référencement SEO.");
 define("GIG","<strong>Projet CAWEB avec Mélanie Ribeiro (2016)</strong>&nbsp;: conception, design, graphisme, développement, rédaction, intégration.");
-define("MIIS","<strong>Rédaction d’un article en anglais</strong> pour le site CAWEB on Tour autour de notre visite au Middlebury Institute of International Studies lors d’un voyage d’étude à San Francisco (2016)");
+define("MIIS","<strong>Rédaction d’un article en anglais pour le site CAWEB on Tour autour de notre visite au Middlebury Institute of International Studies lors d’un voyage d’étude à San Francisco (2016)</strong>");
 
 // CONTACT
 define("INVITATION","Contactez-moi&nbsp;!");
@@ -182,6 +177,7 @@ define("MESSAGE","Votre message&nbsp;");
 define("ENVOYER","Envoyer le message");
 define("EFFACER","Effacer le formulaire");
 define("REQUIRED"," Ces champs sont requis.");
+define("DESACTIVATION", "Le formulaire de contact est actuellement indisponible.");
 
 //SENDMESSAGE
 define("MERCI","Merci pour votre message, ");
