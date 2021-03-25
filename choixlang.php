@@ -5,12 +5,12 @@ choixlang.php qui permet de determiner quel fichier de constantes à inclure
 */
 
 //premier cas pas de cookie ni variable langue initialisée on part sur la langue du navigateur
-If((!$_GET['lang'])&&(!$_COOKIE['lang'])){
+If((!isset($_GET['lang']))&&(!isset($_COOKIE['lang']))){
     $lang = substr($_SERVER['HTTP_ACCEPT_LANGUAGE'],0,2);
     setCookie("lang",$lang,time()+3600*24*365);
     }
 //deuxieme cas une valeur dans le cookie
-Elseif(($_COOKIE['lang'])&&(!$_GET['lang'])){
+Elseif((isset($_COOKIE['lang']))&&(!isset($_GET['lang']))){
     $lang=$_COOKIE['lang'];
     }
 //sinon on se base sur la lang affectée en param
