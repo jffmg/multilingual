@@ -1,0 +1,117 @@
+body {
+    background-color: none;
+    font-family: sans-serif;
+}
+
+main {
+    max-width: 800px;
+    min-width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+#slideshow {
+    display: none;
+}
+
+img:not(#balises) {
+    display: none;
+}
+
+#balises{
+    -webkit-filter: grayscale(100%); filter: grayscale(100%);
+}
+
+header h1 {
+    max-width: 800px;
+    min-width: 300px;
+    margin: auto;
+    text-align: center;
+}
+
+header h1:before {
+    height: 30px;
+    width: auto;
+    content: url(logogig.png);
+}
+
+header h2 {
+    display: none;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+a {
+    color: black;
+}
+
+.code {
+    width: 50%;
+    float: left;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+article figure:not(.code) {
+    display: flex;
+    width: 50%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+    border: 1px solid black;
+}
+
+#bouton {
+    display: none;
+}
+
+
+/* navigation */
+
+.navig {
+    display: block;
+    max-width: 800px;
+    min-width: 300px;
+    height: auto;
+    margin: auto;
+}
+
+#bas {
+    display: block;
+    max-width: 800px;
+    min-width: 300px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0;
+    padding-left: 50px;
+}
+
+.element {
+    display: inline-block;
+    width: auto;
+    padding: 5px;
+    padding-right: 40px;
+    text-align: center;
+}
+
+
+/* copyleft à laisser dans la version imprimée */
+
+.element2 {
+    display: inline-block;
+    width: auto;
+    margin-top: 15px;
+    padding: 5px;
+    text-align: right;
+}
+
+
+p {
+    text-align: justify;
+    word-wrap: break-word;
+    orphans: 3;
+    widows: 3;
+}

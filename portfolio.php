@@ -12,7 +12,7 @@
            <img src="img/gig.jpg" alt="Guide de l'intégrateur galactique" class="screencap">
         </p>
            <span class="toggle toggle6 real"></span>
-           <p class="xp vue6"><a href="../belliet-final/index.php?page=accueil&css=css1&titre=Accueil" target="_blank"><?php echo GIG; ?></a></p>
+           <p class="xp vue6"><a href="belliet/index.php?page=accueil&css=css1&titre=Accueil" target="_blank"><?php echo GIG; ?></a></p>
     </article>
     <article>cd C
         <p class="date toggle7">

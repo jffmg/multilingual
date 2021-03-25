@@ -1,0 +1,6 @@
+<li><a href="https://fr.wikipedia.org/wiki/Le_Guide_du_voyageur_galactique">The Hitchhiker's Guide to the Galaxy</a></li>
+<li><a href="https://fr.wikipedia.org/wiki/La_grande_question_sur_la_vie,_l%27univers_et_le_reste">42</a></li>
+<li><a href="http://towelday.org/">Celebrating the life and work of Douglas Adams : http://towelday.org/</a></li>
+<li><a href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxfO2ZLDoaH-2MzscnqgMRlxJU1Sn5pehGaI7Erxy3lO_zD6MY" target="_blank">test
+ : https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxfO2ZLDoaH-2MzscnqgMRlxJU1Sn5pehGaI7Erxy3lO_zD6MY</a></li>
+<li><a href="http://gabrielbraun.free.fr/TechWeb" target="_blank">https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxfO2ZLDoaH-2MzscnqgMRlxJU1Sn5pehGaI7Erxy3lO_zD6MY : http://gabrielbraun.free.fr/TechWeb</a></li>
